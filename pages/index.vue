@@ -104,6 +104,7 @@ export default {
       console.log(err);
     }
   },
+
   methods: {
     async onDeleteProduct(id, index) {
       try {
@@ -114,6 +115,7 @@ export default {
           // remove
           this.products.splice(index, 1);
         }
+        await this.$nuxt.refresh();
       } catch (err) {
         console.log(err);
       }
