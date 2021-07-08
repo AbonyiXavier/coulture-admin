@@ -58,7 +58,7 @@
                 <!-- <span class="p13-sc-price">{{
                   moneyFormatter(product.price)
                 }}</span> -->
-                <span class="p13-sc-price">${{ product.price }}</span>
+                <span class="p13-sc-price">#{{ product.price }}</span>
               </span>
             </div>
             <!-- Product Button -->
