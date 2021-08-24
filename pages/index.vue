@@ -27,13 +27,10 @@
           class="col-xl-2 col-lg-2 col-md-2 col-6 br bb"
         >
           <div class="history-box">
+            <!-- :src="`https://coulture-backend.herokuapp.com/${product.photo}`" -->
             <!-- Product Image -->
             <a href="" class="a-link-normal">
-              <img
-                :src="`https://coulture-backend.herokuapp.com/${product.photo}`"
-                alt="image"
-                class="img-fluid"
-              />
+              <img :src="`${product.photo}`" alt="image" class="img-fluid" />
             </a>
             <div class="a-spacing-top-base asin-title">
               <span class="a-text-normal">
