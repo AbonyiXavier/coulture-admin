@@ -93,7 +93,7 @@ export default {
       let response = await $axios.$get(
         "https://coulture-backend.herokuapp.com/api/products"
       );
-      // console.log("image", response);
+      console.log("image", response);
       return {
         products: response.products,
       };
