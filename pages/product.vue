@@ -107,7 +107,7 @@ export default {
         "https://coulture-backend.herokuapp.com/api/products",
         data
       );
-
+      console.log("result", result);
       this.$router.push("/");
     },
   },

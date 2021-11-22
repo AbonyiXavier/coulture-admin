@@ -88,7 +88,7 @@ export default {
         `https://coulture-backend.herokuapp.com/api/products/${params.id}`
       );
 
-      // console.log(productResponse);
+      console.log("productResponse", productResponse);
 
       return {
         product: productResponse.product,
@@ -125,6 +125,7 @@ export default {
         `https://coulture-backend.herokuapp.com/api/products/${this.$route.params.id}`,
         data
       );
+      console.log("update photo", result);
       this.$router.push("/");
     },
   },
